@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es6",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+  },
+  "include": [
+    "./src/**/*", "migrations",
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
